@@ -1,314 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Zoom Pro Customer Experience</title>
-
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial,Helvetica,sans-serif;
-}
-
-body{
-    background:#f4f7fb;
-    color:#333;
-    line-height:1.6;
-}
-
-header{
-    background:#0B5CFF;
-    color:#fff;
-    padding:20px 8%;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-}
-
-.logo{
-    font-size:28px;
-    font-weight:bold;
-}
-
-nav a{
-    color:#fff;
-    text-decoration:none;
-    margin-left:25px;
-    font-weight:bold;
-}
-
-.hero{
-    display:flex;
-    flex-wrap:wrap;
-    align-items:center;
-    justify-content:space-between;
-    padding:80px 8%;
-    background:linear-gradient(to right,#0B5CFF,#5D9BFF);
-    color:white;
-}
-
-.hero-text{
-    max-width:550px;
-}
-
-.hero-text h1{
-    font-size:48px;
-    margin-bottom:20px;
-}
-
-.hero-text p{
-    font-size:18px;
-    margin-bottom:30px;
-}
-
-.btn{
-    display:inline-block;
-    background:white;
-    color:#0B5CFF;
-    padding:15px 30px;
-    border-radius:8px;
-    text-decoration:none;
-    font-weight:bold;
-}
-
-.hero-image{
-    font-size:130px;
-}
-
-section{
-    padding:70px 8%;
-}
-
-.section-title{
-    text-align:center;
-    font-size:36px;
-    color:#0B5CFF;
-    margin-bottom:50px;
-}
-
-.cards{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:25px;
-}
-
-.card{
-    background:white;
-    padding:30px;
-    border-radius:12px;
-    box-shadow:0 8px 25px rgba(0,0,0,.08);
-    transition:.3s;
-}
-
-.card:hover{
-    transform:translateY(-8px);
-}
-
-.card h3{
-    color:#0B5CFF;
-    margin-bottom:15px;
-}
-
-.services{
-    background:white;
-}
-
-.service-list{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:30px;
-}
-
-.service{
-    border-left:5px solid #0B5CFF;
-    background:#f8fbff;
-    padding:25px;
-}
-
-.contact{
-    text-align:center;
-    background:#0B5CFF;
-    color:white;
-}
-
-.contact h2{
-    margin-bottom:20px;
-}
-
-footer{
-    background:#111;
-    color:white;
-    text-align:center;
-    padding:20px;
-}
-
-@media(max-width:768px){
-
-.hero{
-text-align:center;
-}
-
-.hero{
-padding:50px 8%;
-}
-
-.hero-text h1{
-font-size:36px;
-}
-
-.hero-image{
-margin-top:40px;
-font-size:90px;
-}
-
-header{
-flex-direction:column;
-}
-
-nav{
-margin-top:15px;
-}
-}
-</style>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sekiro: Shadows Die Twice</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <header>
-
-<div class="logo">Zoom Pro CX</div>
-
-<nav>
-<a href="#">Home</a>
-<a href="#">Solutions</a>
-<a href="#">Services</a>
-<a href="#">Contact</a>
-</nav>
-
+    <h1>SEKIRO</h1>
+    <p>Shadows Die Twice</p>
 </header>
 
 <section class="hero">
+    <h2>One Armed Wolf</h2>
+    <p>
+        Experience the award-winning action-adventure from FromSoftware.
+        Master sword combat, stealth, and incredible boss battles.
+    </p>
 
-<div class="hero-text">
+    <a href="#gallery" class="button">Explore</a>
+</section>
 
-<h1>Deliver Exceptional Customer Experiences</h1>
+<section class="about">
+
+<h2>About the Game</h2>
 
 <p>
-Empowering organizations with Zoom Contact Center, AI Expert Assist,
-Workforce Engagement, Quality Management, and seamless omnichannel customer support.
+Sekiro: Shadows Die Twice is an action-adventure game developed by
+FromSoftware and published by Activision. Set during Japan's Sengoku era,
+you play as the shinobi known as Wolf on a mission to rescue his young lord.
 </p>
 
-<a href="#" class="btn">Request a Demo</a>
+</section>
 
-</div>
+<section id="gallery">
 
-<div class="hero-image">
-💬
+<h2>Gallery</h2>
+
+<div class="gallery">
+
+<img src="https://upload.wikimedia.org/wikipedia/en/6/6e/Sekiro_art.jpg"
+alt="Sekiro Cover">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Japanese_Castle.jpg"
+alt="Japanese Castle">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Katana.jpg"
+alt="Katana">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Japanese_Temple.jpg"
+alt="Temple">
+
 </div>
 
 </section>
 
-<section>
+<section class="features">
 
-<h2 class="section-title">Why Choose Zoom Pro CX?</h2>
+<h2>Game Features</h2>
 
 <div class="cards">
 
 <div class="card">
-<h3>AI-Powered Support</h3>
-<p>
-Use AI Expert Assist to provide agents with instant answers,
-knowledge suggestions, and customer insights.
-</p>
+<h3>⚔ Sword Combat</h3>
+<p>Master posture breaking and precise deflections.</p>
 </div>
 
 <div class="card">
-<h3>Omnichannel Engagement</h3>
-<p>
-Connect with customers through voice, chat, SMS, email, and social messaging
-from a single platform.
-</p>
+<h3>🥷 Stealth</h3>
+<p>Approach enemies silently using rooftops and grappling hooks.</p>
 </div>
 
 <div class="card">
-<h3>Advanced Analytics</h3>
-<p>
-Gain actionable insights with real-time dashboards,
-quality management, and workforce analytics.
-</p>
-</div>
-
-<div class="card">
-<h3>Cloud Contact Center</h3>
-<p>
-Modern cloud-native architecture that scales globally while maintaining
-high availability and security.
-</p>
+<h3>👹 Epic Bosses</h3>
+<p>Challenge legendary warriors and mythical creatures.</p>
 </div>
 
 </div>
-
-</section>
-
-<section class="services">
-
-<h2 class="section-title">Professional Services</h2>
-
-<div class="service-list">
-
-<div class="service">
-<h3>Solution Design</h3>
-<p>
-Architecture planning, discovery workshops,
-call flow design, and customer journey mapping.
-</p>
-</div>
-
-<div class="service">
-<h3>Implementation</h3>
-<p>
-Zoom Contact Center deployment,
-telephony integration,
-BYOC configuration,
-and CRM integrations.
-</p>
-</div>
-
-<div class="service">
-<h3>Optimization</h3>
-<p>
-Performance tuning,
-AI enhancements,
-analytics configuration,
-and ongoing adoption services.
-</p>
-</div>
-
-</div>
-
-</section>
-
-<section class="contact">
-
-<h2>Ready to Transform Your Customer Experience?</h2>
-
-<p>
-Partner with Zoom Professional Services to modernize your contact center.
-</p>
-
-<br>
-
-<a href="#" class="btn">Contact Us</a>
 
 </section>
 
 <footer>
 
-© 2026 Zoom Pro Customer Experience Demo Website
+<p>Fan-made website for educational purposes.</p>
 
 </footer>
 
